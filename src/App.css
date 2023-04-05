@@ -1,0 +1,87 @@
+.menu-wrapper {
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   background-color: #fff;
+   z-index: 10;
+   display: flex;
+   justify-content: center;
+}
+
+.menu {
+   display: flex;
+   list-style: none;
+}
+
+.menu__item {
+   margin: 10px;
+}
+
+.menu__link {
+   text-decoration: none;
+   color: #000;
+   font-weight: bold;
+}
+
+.menu__link.active {
+   text-decoration: underline;
+}
+
+button.menu-btn {
+   position: fixed;
+   top: 10px;
+   right: 10px;
+   z-index: 11;
+}
+
+tbody tr:nth-of-type(odd) {
+   background-color: rgba(0, 0, 0, 0.04);
+}
+
+tbody tr:hover {
+   background-color: rgba(0, 0, 0, 0.1);
+}
+
+thead tr th.th {
+   background-color: #000;
+   color: #fff;
+}
+
+td {
+   position: relative;
+}
+
+td label {
+   position: absolute;
+   bottom: 100%;
+   background-color: #fff;
+   padding: 5px;
+   min-width: 50px;
+}
+
+.checkbox-wrap {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   display: none;
+}
+
+td:hover .checkbox-wrap {
+   display: block;
+}
+
+.checkbox-inner {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
